@@ -1,0 +1,92 @@
+/* removes default margin and padding values */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #000;
+    height: 35px;
+}
+
+.full {
+    background-image: url(images/developer.png);
+    background-repeat: no-repeat;
+    height: 690px;
+    width: 1600px;
+}
+
+.work {
+    height: 600px;
+    width: 100%;
+}
+
+
+.intro {
+    height: 100px;
+    margin-left: 150px;
+    width: 1400px;
+}
+
+
+
+.static {
+    display: block;
+    height: 466px;
+    margin-left: 400px;
+    width: 800px;
+}
+
+
+
+.listapp {
+    display: block;
+    height: 466px;
+    margin-left: 400px;
+    width: 800px;
+}
+
+.fizzbuzz {
+    display: block;
+    height: 466px;
+    margin-left: 400px;
+    width: 800px;
+}
+
+.hotcold {
+    display: block;
+    height: 466px;
+    margin-left: 400px;
+    width: 800px;
+}
+
+.quizz {
+    display: block;
+    height: 466px;
+    margin-left: 400px;
+    width: 800px;
+}
+
+.api {
+    display: block;
+    height: 466px;
+    margin-left: 400px;
+    width: 800px;
+}
+
+.project {
+    display: block;
+    float: left;
+    height: 466px;
+    width: 800px;
+}
+
+
+.descrip {
+    display: block;
+    float: left;
+    height: 50px;
+    padding-top: 25px;
+    width: 800px;
+}
