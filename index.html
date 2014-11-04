@@ -2,50 +2,40 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>josevem</title>
-        <link rel="stylesheet" href="portfolio.css" />
-    </head>
-    <body>
-        <header>
-        </header>
-        <div class="containter">
-            <section class="full"></section>
-            
-            <div class="work">
-                <div class="intro">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, aperiam, totam, modi dolorum sed autem repellendus architecto nesciunt fugit ipsam eveniet laudantium. Quo expedita harum obcaecati animi sit illo vel.</p>
-                </div>
-                    <section class="static">
-                        <img class="project" src="images/thc.png" />
-                        <p class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ex, impedit voluptates quidem dolores reprehenderit sunt magnam ipsam labore consequuntur similique deserunt. Accusantium, quas iste neque quisquam suscipit animi facilis!</p>
-                    </section> 
+        <title>Portfolio: Joseph McCrae</title>
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/photo-viewer.css" />
+        <script src="js/jquery.js"></script>
+        
+  </head>
 
-                    <section class="listapp">
-                        <img class="project" src="images/listapp.png" />
-                        <p class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ex, impedit voluptates quidem dolores reprehenderit sunt magnam ipsam labore consequuntur similique deserunt. Accusantium, quas iste neque quisquam suscipit animi facilis!</p>
-                    </section>
+  <body>
 
-                    <section class="fizzbuzz">
-                        <img class="project" src="images/fizzbuzz.png" />
-                        <p class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ex, impedit voluptates quidem dolores reprehenderit sunt magnam ipsam labore consequuntur similique deserunt. Accusantium, quas iste neque quisquam suscipit animi facilis!</p>
-                    </section>
-                
-                    <section class="hotcold">
-                        <img class="project" src="images/hotcold.png" />
-                        <p class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ex, impedit voluptates quidem dolores reprehenderit sunt magnam ipsam labore consequuntur similique deserunt. Accusantium, quas iste neque quisquam suscipit animi facilis!</p>
-                    </section>
-
-                    <section class="quizz">
-                        <img class="project" src="images/quizz.png" />
-                        <p class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ex, impedit voluptates quidem dolores reprehenderit sunt magnam ipsam labore consequuntur similique deserunt. Accusantium, quas iste neque quisquam suscipit animi facilis!</p>
-                    </section>
-                    
-                    <section class="api">
-                        <img class="project" src="images/api.png" />
-                        <p class="descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ex, impedit voluptates quidem dolores reprehenderit sunt magnam ipsam labore consequuntur similique deserunt. Accusantium, quas iste neque quisquam suscipit animi facilis!</p>
-                    </section>
-            </div>    
-             
+    <section class="full"></section>
+    <section class="portfolio">
+      <h2>Selected Works</h2>
+      <div class="projects">
+        <div id="viewer"></div>
+        <div id="thumbnails">
+          <a href="img/thc.png" class="thumb active" title="The Hero Channel"><img src="img/thc-thumb.png" alt="The Hero Channel" /></a>
+          <a href="img/listapp.png" class="thumb" title="JQuery Radio"><img src="img/list-thumb.png" alt="JQuery Radio" /></a>
+          <a href="img/fizzbuzz.png" class="thumb" title="Fizz Buzz"><img src="img/fizz-thumb.png" alt="Fizz Buzz" /></a>
+          <a href="img/fizzbuzz.png" class="thumb" title="Hot Cold"><img src="img/hotcold-thumb.png" alt="Hot Cold" /></a>
+          <a href="img/fizzbuzz.png" class="thumb" title="Lyricist Lounge"><img src="img/lounge-thumb.png" alt="Lyricist Lounge" /></a>
+          <a href="img/fizzbuzz.png" class="thumb" title="Songs"><img src="img/songs-thumb.png" alt="Songs" /></a>
         </div>
-    </body>
+      </div>
+      <div class="description">
+        <p class="standfirst">Take your tastebuds for a gentle stroll through an English garden filled with Monsieur Pigeon's beautifully fragrant Flower Series marshmallows.</p>
+        <p>With three sweetly floral options: <strong>Elderberry</strong>, <strong>Rose Petal</strong>, and <strong>Chrysanthemum</strong> - all edible and all naturally flavored - they will have you dreaming of butterflies and birdsong in no time.</p>
+        <p><strong>$5.75</strong> / 3.5 oz packet</p>
+        <a href="" id="buy">Buy now</a>
+      </div>
+    </section>
+
+    <script src="js/photo-viewer.js"></script>
+    
+    
+
+  </body>
 </html>
