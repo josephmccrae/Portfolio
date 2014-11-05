@@ -7,27 +7,18 @@ body {
   margin: 0em;
   padding: 0em;}
 
-.portfolio {
-    background-color: #fff; 
-    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2); 
-    color: #666;
-    max-width: 640px;
-    margin: 25px auto 30px auto;
-    overflow: auto;
-}
-  
+.page {
+  max-width: 640px;
+  margin: 0px auto 30px auto;}
+
+.panel {
+  background-color: #fff;
+  color: #666;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+  overflow: auto;}
 
 button {
   border: none;}
-
-
-.full {
-    background-image: url('../img/webdev.png');
-    background-repeat: no-repeat;
-    height: 600px;
-    width: 1900px;
-}
-
 
 /********** LOGO **********/
 h1 {

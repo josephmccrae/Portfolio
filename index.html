@@ -3,39 +3,47 @@
     <head>
         <meta charset="UTF-8">
         <title>Portfolio: Joseph McCrae</title>
-        <link rel="stylesheet" href="css/base.css" />
-        <link rel="stylesheet" href="css/photo-viewer.css" />
-        <script src="js/jquery.js"></script>
-        
-  </head>
+        <link rel="stylesheet" href="css/portfolio.css" />
+        <link rel="stylesheet" href="css/slider.css" />
+        <script src="js/jquery.js"></script>    
+    </head>
 
-  <body>
-
-    <section class="full"></section>
-    <section class="portfolio">
-      <h2>Selected Works</h2>
-      <div class="projects">
-        <div id="viewer"></div>
-        <div id="thumbnails">
-          <a href="img/thc.png" class="thumb active" title="The Hero Channel"><img src="img/thc-thumb.png" alt="The Hero Channel" /></a>
-          <a href="img/listapp.png" class="thumb" title="JQuery Radio"><img src="img/list-thumb.png" alt="JQuery Radio" /></a>
-          <a href="img/fizzbuzz.png" class="thumb" title="Fizz Buzz"><img src="img/fizz-thumb.png" alt="Fizz Buzz" /></a>
-          <a href="img/fizzbuzz.png" class="thumb" title="Hot Cold"><img src="img/hotcold-thumb.png" alt="Hot Cold" /></a>
-          <a href="img/fizzbuzz.png" class="thumb" title="Lyricist Lounge"><img src="img/lounge-thumb.png" alt="Lyricist Lounge" /></a>
-          <a href="img/fizzbuzz.png" class="thumb" title="Songs"><img src="img/songs-thumb.png" alt="Songs" /></a>
-        </div>
-      </div>
-      <div class="description">
-        <p class="standfirst">Take your tastebuds for a gentle stroll through an English garden filled with Monsieur Pigeon's beautifully fragrant Flower Series marshmallows.</p>
-        <p>With three sweetly floral options: <strong>Elderberry</strong>, <strong>Rose Petal</strong>, and <strong>Chrysanthemum</strong> - all edible and all naturally flavored - they will have you dreaming of butterflies and birdsong in no time.</p>
-        <p><strong>$5.75</strong> / 3.5 oz packet</p>
-        <a href="" id="buy">Buy now</a>
-      </div>
-    </section>
-
-    <script src="js/photo-viewer.js"></script>
-    
-    
-
-  </body>
+    <body>
+        <section class="full">
+            <div class="intro">
+                <p class="name">Joseph McCrae</p>
+                <p class="grad">Thinkful Graduate</p>
+                <p class="job">Web Developer</p>
+            </div>
+        </section>
+        <section class="portfolio"></div>
+            <div class="slider">
+                <div class="slide-viewer">
+                  <div class="slide-group">
+                    <div class="slide slide-1">
+                      <a href="http://josevem.github.io/The-Hero-Channel"><img src="img/thc.png" alt="The Hero Channel" /></a>
+                    </div>
+                    <div class="slide slide-2">
+                      <a href="http://josevem.github.io/JQuery-Radio"><img src="img/listapp.png" alt="JQuery Radio"  /></a>
+                    </div>
+                    <div class="slide slide-3">
+                      <a href="http://josevem.github.io/Refactor"><img src="img/fizzbuzz.png" alt="FizzBuzz"  /></a>
+                    </div>
+                    <div class="slide slide-4">
+                      <a href="http://josevem.github.io/HotnCold"><img src="img/hotcold.png" alt="Hot or Cold"  /></a>
+                    </div>
+                    <div class="slide slide-4">
+                      <a href="http://josevem.github.io/Lyricist-Lounge"><img src="img/quizz.png" alt="Lyricist Lounge"  /></a>
+                    </div>
+                    <div class="slide slide-4">
+                      <a href="http://josevem.github.io/Lounge-II"><img src="img/api.png" alt="Lounge II"  /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide-buttons"></div>
+                </div>
+        </section>
+        <script src="js/slider.js"></script>        
+    </body>
+    <footer></footer>
 </html>

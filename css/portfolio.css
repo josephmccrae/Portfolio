@@ -1,0 +1,79 @@
+* {
+    border: 0;
+    padding: 0;
+}
+
+
+body {
+  background-color: #fff;
+  color: #fff;
+  margin: 0em;
+  padding: 0em;
+}
+
+
+.full {
+    background-image: url('../img/webdev.png');
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1900px;
+}
+
+.intro {
+    color: #fff;
+    display: block;
+    float: right;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin-right: 50px;
+    text-align: right;
+    text-shadow: 1px 1px 5px #000;
+}
+
+.name {
+    font-size: 4em;
+}
+
+
+.grad {
+    font-size: 2em;
+    margin-top: -30px;
+}
+
+
+.job {
+    font-size: 2em;
+    margin-top: -30px;
+}
+
+
+.portfolio {
+    background-color: #fff;
+    height: 570px;
+    width: 1900px;
+}
+
+.slider {
+    margin-left: 475px;
+    padding-top: 65px;
+}
+
+
+button {
+  border: none;
+}
+
+
+button {
+  font-size: 90%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+footer {
+    background-color: #0060b9;
+    bottom: 0;
+    float: left;
+    height: 50px;
+    position: absolute;
+    width: 1900px;
+}
